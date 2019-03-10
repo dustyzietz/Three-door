@@ -1,0 +1,76 @@
+<DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="threedoors.css">
+</head>
+<div class="door" id="d1" onclick="opend1()">
+	door #1
+	</div>
+<div class="door" id="d2" onclick="opend2()">
+	door #2
+	</div>
+<div class="door" id="d3" onclick="opend3()">
+	door #3
+	</div>
+	<div id="display">
+		pick the red door last
+	</div>
+	<div class="button" id="rbutton">
+		Reset 
+	</div>  
+	<div id="testdiv">
+		test
+	</div>
+<script>
+	let random0to5 = Math.floor(Math.random() * 6)
+	function opend1 () {
+		if(random0to5 == 0 || random0to5 == 1) {
+			document.getElementById("d1").style.background = 'red';}
+			else {
+		document.getElementById("testdiv").innerHTML = 
+		'opend1 works' + random0to5 ; }
+	}
+	function opend2 () {
+		if(random0to5 == 2 || random0to5 == 3) {
+			document.getElementById("d2").style.background = 'red';}
+			else {
+		document.getElementById("testdiv").innerHTML = 
+		'opend2 works' + random0to5 ; }
+	}
+	function opend3 () {
+		if(random0to5 == 4 || random0to5 == 5) {
+			document.getElementById("d3").style.background = 'red';}
+			else {
+		document.getElementById("testdiv").innerHTML = 
+		'opend3 works' + random0to5 ; }
+	}
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

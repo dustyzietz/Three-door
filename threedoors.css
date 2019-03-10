@@ -1,0 +1,31 @@
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+div.door {
+	background-color: black;
+	width: 16%;
+	margin: 8%;
+	height: 17%;
+	float: left;
+	color: white;
+	text-align: center;
+	padding-top:15%;
+}
+div#display {
+	clear: both;
+	width: 70%;
+	margin: auto;
+    background-color: powderblue;
+    text-align: center;
+    padding: 5%;
+}
+div.button {
+	width: 20%;
+	margin: auto;
+	text-align: center;
+	margin-top: 5%;
+	border: 1px solid black;
+	padding:2%;
+}
